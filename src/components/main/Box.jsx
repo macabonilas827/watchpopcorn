@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const MovieBox = ({ children }) => {
+const Box = ({ children }) => {
   const [isOpen1, setIsOpen1] = useState(true);
   return (
     <>
@@ -16,4 +16,4 @@ const MovieBox = ({ children }) => {
     </>
   );
 };
-export default MovieBox;
+export default Box;
