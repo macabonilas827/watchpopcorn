@@ -3,7 +3,7 @@ const Logo = () => {
     <>
       <div className="logo">
         <span role="img">🍿</span>
-        <h1>usePopcorn</h1>
+        <h1>WatchPopCorn</h1>
       </div>
     </>
   );

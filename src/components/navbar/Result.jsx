@@ -1,8 +1,4 @@
-import { useState } from "react";
-import { tempMovieData } from "../data/tempMovieData";
-
-const Result = () => {
-  const [movies, setMovies] = useState(tempMovieData);
+const Result = ({ movies }) => {
   return (
     <>
       {" "}
